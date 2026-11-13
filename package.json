@@ -1,0 +1,28 @@
+{
+    "name": "pi-context-status",
+    "version": "0.1.0",
+    "private": false,
+    "description": "A compact two-line context and thinking status footer for Pi.",
+    "license": "MIT",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi-coding-agent",
+      "context-window",
+      "statusline"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Dmitrijs-Vasilevskis/pi-context-status.git"
+    },
+    "pi": {
+      "extensions": [
+        "./extensions/context-status.ts"
+      ]
+    },
+    "peerDependencies": {
+      "@earendil-works/pi-coding-agent": "*",
+      "@earendil-works/pi-tui": "*"
+    }
+  }
+  
